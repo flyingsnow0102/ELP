@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 import pymysql
 import json
+import os,sys
 
 def getDao():
     config = {
@@ -40,16 +41,12 @@ def getTestNameList(requset):
 
 
 def getTestQuestions(request):
-    json = ''
-    jsonFile = open("F:/python/ELP/ELP/json/test.json", 'r', encoding='utf-8')
+    jsonFile = open(sys.path[0] + "\\ELP\\json\\test.json", 'r', encoding='utf-8')
     json = jsonFile.read()
-
-    print(json)
-
     return HttpResponse(json)
 
 
 def getFile(request):
-    file = open("F:/python/ELP/ELP/music/DTiton.mp3", 'rb')
+    file = open(sys.path[0] + "\\ELP\\music\\DTiton.mp3", 'rb')
     fileUp = file.read()
     return HttpResponse(fileUp, content_type='audio/mpeg')
