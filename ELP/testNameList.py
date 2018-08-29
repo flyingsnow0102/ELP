@@ -37,3 +37,19 @@ def getTestNameList(requset):
     else:
         sql = 'select * from test_b'
         return HttpResponse(json.dumps(getData(getDao(), sql)))
+
+
+def getTestQuestions(request):
+    json = ''
+    jsonFile = open("F:/python/ELP/ELP/json/test.json", 'r', encoding='utf-8')
+    json = jsonFile.read()
+
+    print(json)
+
+    return HttpResponse(json)
+
+
+def getFile(request):
+    file = open("F:/python/ELP/ELP/music/DTiton.mp3", 'rb')
+    fileUp = file.read()
+    return HttpResponse(fileUp, content_type='audio/mpeg')

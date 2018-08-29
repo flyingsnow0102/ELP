@@ -17,10 +17,8 @@ from django.urls import path
 from . import index
 from . import testNameList
 urlpatterns = [
-    path('getList/', testNameList.getTestNameList),
+    path('getList', testNameList.getTestNameList),
+    path('getTestQuestions', testNameList.getTestQuestions),
     path('', index.index),
-    path('', index.index),
-    path('', index.index),
-
-    path('', index.index),
+    path('TestTheTape', testNameList.getFile)
 ]
