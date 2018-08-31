@@ -33,7 +33,7 @@ def getTestNameList(requset):
     if requset.GET['gradeType'] == 'A':
         sql = 'select * from test_a'
         data = getData(getDao(), sql)
-        print(data)
+        print("\n\n\n" + data)
         return HttpResponse(json.dumps(data))
     else:
         sql = 'select * from test_b'
@@ -43,12 +43,13 @@ def getTestNameList(requset):
 def getTestQuestions(request):
     jsonFile = open(sys.path[0] + "/ELP/json/test.json", 'r', encoding='utf-8')
     json = jsonFile.read()
+    print("\n\n\n" + json)
     return HttpResponse(json)
 
 
 def getFile(request):
     test_id = request.GET['test_id']
-    print(test_id)
+    print("\n\n\n" + test_id)
     file = open(sys.path[0] + "/ELP/music/" + test_id + ".mp3", 'rb')
     fileUp = file.read()
     return HttpResponse(fileUp, content_type='audio/mpeg')
