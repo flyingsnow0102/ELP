@@ -33,7 +33,6 @@ def getTestNameList(requset):
     if requset.GET['gradeType'] == 'A':
         sql = 'select * from test_a'
         data = getData(getDao(), sql)
-        print("\n\n\n" + data)
         return HttpResponse(json.dumps(data))
     else:
         sql = 'select * from test_b'
