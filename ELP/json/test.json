@@ -2,60 +2,76 @@
 	"title": "—Why don`t you take the T-shirt, Linda?—I have only $10 I can`t ____ it.",
 	"options": [{
 		"name": "A、borrow",
-		"id": 1
+		"id": 1,
+		"checked": false
 	}, {
 		"name": "B、Afford",
-		"id": 2
+		"id": 2,
+		"checked": false
 	}, {
 		"name": "C、sell",
-		"id": 3
+		"id": 3,
+		"checked": false
 	}, {
 		"name": "D、bring",
-		"id": 4
+		"id": 4,
+		"checked": false
+	}]
+  }, {
+	"title": "—Why don`t you take the T-shirt, Linda?—I have only $10 I can`t ____ it.",
+	"options": [{
+		"name": "A、borrow",
+		"id": 1,
+		"checked": false
+	}, {
+		"name": "B、Afford",
+		"id": 2,
+		"checked": false
+	}, {
+		"name": "C、sell",
+		"id": 3,
+		"checked": false
+	}, {
+		"name": "D、bring",
+		"id": 4,
+		"checked": false
 	}]
   },{
 	"title": "—Why don`t you take the T-shirt, Linda?—I have only $10 I can`t ____ it.",
 	"options": [{
 		"name": "A、borrow",
-		"id": 1
+		"id": 1,
+		"checked": false
 	}, {
 		"name": "B、Afford",
-		"id": 2
+		"id": 2,
+		"checked": false
 	}, {
 		"name": "C、sell",
-		"id": 3
+		"id": 3,
+		"checked": false
 	}, {
 		"name": "D、bring",
-		"id": 4
+		"id": 4,
+		"checked": false
 	}]
   },{
 	"title": "—Why don`t you take the T-shirt, Linda?—I have only $10 I can`t ____ it.",
 	"options": [{
 		"name": "A、borrow",
-		"id": 1
+		"id": 1,
+		"checked": false
 	}, {
 		"name": "B、Afford",
-		"id": 2
+		"id": 2,
+		"checked": false
 	}, {
 		"name": "C、sell",
-		"id": 3
+		"id": 3,
+		"checked": false
 	}, {
 		"name": "D、bring",
-		"id": 4
-	}]
-  },{
-	"title": "—Why don`t you take the T-shirt, Linda?—I have only $10 I can`t ____ it.",
-	"options": [{
-		"name": "A、borrow",
-		"id": 1
-	}, {
-		"name": "B、Afford",
-		"id": 2
-	}, {
-		"name": "C、sell",
-		"id": 3
-	}, {
-		"name": "D、bring",
-		"id": 4
+		"id": 4,
+		"checked": false
 	}]
 }]

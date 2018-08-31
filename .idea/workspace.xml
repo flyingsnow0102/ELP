@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf422318-f09c-4db1-831c-cd9f9d7da058" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/ELP/testNameList.py" beforeDir="false" afterPath="$PROJECT_DIR$/ELP/testNameList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ELP/json/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/ELP/json/test.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testNameList.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testNameList.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ELP/testNameList.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -58,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ELP/json/test.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="417">
+              <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -119,8 +119,8 @@
         <option value="$PROJECT_DIR$/ELP/index.py" />
         <option value="$PROJECT_DIR$/ELP/settings.py" />
         <option value="$PROJECT_DIR$/ELP/urls.py" />
-        <option value="$PROJECT_DIR$/ELP/json/test.json" />
         <option value="$PROJECT_DIR$/ELP/testNameList.py" />
+        <option value="$PROJECT_DIR$/ELP/json/test.json" />
       </list>
     </option>
   </component>
@@ -609,13 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ELP/json/test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ELP/testNameList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -623,6 +616,13 @@
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ELP/json/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
         </state>
       </provider>
     </entry>
