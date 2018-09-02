@@ -1,6 +1,7 @@
 [{
 	"title": "—Why don`t you take the T-shirt, Linda?—I have only $10 I can`t ____ it.",
 	"options": [{
+		`
 		"name": "A、borrow",
 		"id": 1,
 		"checked": false
