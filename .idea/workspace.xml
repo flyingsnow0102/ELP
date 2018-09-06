@@ -23,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ELP/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+            <state relative-caret-position="242">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -37,7 +37,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="testNameList.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testNameList.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ELP/testNameList.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
@@ -131,6 +131,12 @@
               <item name="ELP" type="b2602c69:ProjectViewProjectNode" />
               <item name="ELP" type="462c0819:PsiDirectoryNode" />
               <item name="ELP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ELP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ELP" type="462c0819:PsiDirectoryNode" />
+              <item name="ELP" type="462c0819:PsiDirectoryNode" />
+              <item name="music" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ELP" type="b2602c69:ProjectViewProjectNode" />
@@ -604,13 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ELP/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ELP/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -659,6 +658,13 @@
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ELP/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
