@@ -47,6 +47,7 @@ def getTestQuestions(request):
 
 
 def getFile(request):
+    print('testTheTape')
     test_id = request.GET['test_id']
     print("\n\n\n" + test_id)
     file = open(sys.path[0] + "/ELP/music/" + test_id + ".mp3", 'rb')

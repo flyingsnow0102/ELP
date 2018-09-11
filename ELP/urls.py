@@ -20,5 +20,5 @@ urlpatterns = [
     path('getList', testNameList.getTestNameList),
     path('getTestQuestions', testNameList.getTestQuestions),
     path('', index.index),
-    path('TestTheTape', testNameList.getFile)
+    path('testTheTape', testNameList.getFile)
 ]
